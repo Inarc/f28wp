@@ -1,0 +1,11 @@
+:root {
+    --purple: rgb(63, 0, 127);
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: var(--purple);
+}
