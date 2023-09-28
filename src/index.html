@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js"></script>
     </head>
-    <body>
+    <body id="body">
         <div id="head">
             <h1>Hello, world!</h1>    
         </div>
@@ -14,6 +14,36 @@
             <p>
                 Welcome to my website
             </p>
+
+            <div class="colour-changing-buttons">
+                <p>
+                    Buttons to change the <i>text</i> colours of the website
+                </p>
+                <button type="button" id="main-red-button" onclick="changeTextColourGreyish('red')">Red</button>
+                <button type="button" id="main-green-button" onclick="changeTextColourGreyish('green')">Green</button>
+                <button type="button" id="main-blue-button" onclick="changeTextColourGreyish('blue')">Blue</button>
+                <button type="button" id="main-grey-button" onclick="changeTextColourGreyish('grey')" >Grey</button>
+            </div>
+
+            <div class="colour-changing-buttons">
+                <p>
+                    Buttons to change the <i>background</i> colours of the website
+                </p>
+                <button type="button" id="main-red-button" onclick="changeBackgroundColourGreyish('red')">Red</button>
+                <button type="button" id="main-green-button" onclick="changeBackgroundColourGreyish('green')">Green</button>
+                <button type="button" id="main-blue-button" onclick="changeBackgroundColourGreyish('blue')">Blue</button>
+                <button type="button" id="main-grey-button" onclick="changeBackgroundColourGreyish('grey')" >Grey</button>
+            </div>
+
+            <div class="colour-changing-buttons">
+                <p>
+                    Buttons to change both the text <i>and</i> background colours of the website
+                </p>
+                <button type="button" id="main-red-button" onclick="changeColourGreyish('red')">Red</button>
+                <button type="button" id="main-green-button" onclick="changeColourGreyish('green')">Green</button>
+                <button type="button" id="main-blue-button" onclick="changeColourGreyish('blue')">Blue</button>
+                <button type="button" id="main-grey-button" onclick="changeColourGreyish('grey')" >Grey</button>
+            </div>
         </div>
     </body>
 </html>

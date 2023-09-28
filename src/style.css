@@ -1,8 +1,21 @@
 :root {
-    --grey: rgb(191, 191, 191);
-    --dark-grey: rgb(127, 127, 127);
+    --light-grey: rgb(191, 191, 191);
+    --grey: rgb(127, 127, 127);
+    --dark-grey: rgb(63, 63, 63);
 
-    --purple: rgb(63, 0, 127);
+    --grey-red: rgb(127, 63, 63);
+    --dark-grey-red: rgb(63, 31, 31);
+    --grey-green: rgb(63, 127, 63);
+    --dark-grey-green: rgb(31, 63, 31);
+    --grey-blue: rgb(63, 63, 127);
+    --dark-grey-blue: rgb(31, 31, 63);
+
+    --orange: rgb(255, 127, 0);
+    --dark-orange: rgb(127, 63, 0);
+    --mint: rgb(0, 255, 127);
+    --dark-mint: rgb(0, 127, 63);
+    --purple: rgb(127, 0, 255);
+    --dark-purple: rgb(63, 0, 127);
 
 }
 
@@ -10,6 +23,7 @@ body {
     background-color: var(--grey);
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 div {
@@ -17,11 +31,8 @@ div {
     padding: 10pt;
 }
 
-h1 {
-    color: var(--purple);
-}
-
 #head {
+    color: var(--grey);
     background-color: var(--dark-grey);
     margin: 0rem;
     padding-bottom: 0rem;
@@ -29,5 +40,35 @@ h1 {
 }
 
 #main {
+    border-style: solid;
     border-color: black;
+}
+
+.colour-changing-buttons {
+    border-style: solid;
+    border-color: black;
+}
+
+.colour-changing-buttons button {
+    width: 100px;
+    border: none;
+    padding: 1em 1em;
+    font-size: 1em;
+}
+
+.colour-changing-buttons #main-red-button {
+    background-color: red;
+}
+
+.colour-changing-buttons #main-green-button {
+    background-color: lime;
+}
+
+.colour-changing-buttons #main-blue-button {
+    background-color: blue;
+}
+
+.colour-changing-buttons #main-grey-button {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
 }
