@@ -5,7 +5,7 @@
 
     --grey-red: rgb(127, 63, 63);
     --dark-grey-red: rgb(63, 31, 31);
-    --grey-green: rgb(63, 127, 63);
+    --grey-green: rgb(18, 39, 18);
     --dark-grey-green: rgb(31, 63, 31);
     --grey-blue: rgb(63, 63, 127);
     --dark-grey-blue: rgb(31, 31, 63);
@@ -31,6 +31,8 @@ body {
 div {
     margin: 10pt;
     padding: 10pt;
+    border-style: solid;
+    border-color: black;
 }
 
 #head {
@@ -41,7 +43,7 @@ div {
     text-align: center;
 }
 
-.colour-changing-buttons {
+#main {
     border-style: solid;
     border-color: black;
 }
