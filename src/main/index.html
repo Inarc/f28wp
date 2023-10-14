@@ -4,6 +4,7 @@
         <title>My Website</title>
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js"></script>
+        <script src="colours.js"></script>
     </head>
     <body id="body">
         <div id="head">
@@ -44,6 +45,10 @@
                     <button type="button" id="main-grey-button" onclick="changeColourGreyish('grey')" >Grey</button>
                 </div>
 
+                <div id="colourTableDiv">
+                    <button id="create-colour-table-button" onclick="createTable()">Click me to randomise the colour table</button>
+                    <table id="colourTable"></table>
+                </div>
             </div>
         </div>
     </body>
